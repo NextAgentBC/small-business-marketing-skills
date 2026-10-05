@@ -1,0 +1,10 @@
+{
+  "name": "small-business-marketing-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Six AI marketing skills for small, local businesses.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
