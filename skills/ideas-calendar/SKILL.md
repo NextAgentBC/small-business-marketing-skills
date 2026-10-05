@@ -2,7 +2,7 @@
 name: ideas-calendar
 description: "Use when the user does not know what to post, wants post ideas, a content calendar, a month of ideas, seasonal or holiday ideas, or low-cost local marketing ideas. Also use for 'what should I post', 'content plan', 'Thanksgiving / Halloween / Black Friday / Lunar New Year post', 'slow week', or 'marketing ideas for my shop'. Produces ideas with a first line and the best channel for each; for writing the posts themselves, hand over to social-posts."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Ideas calendar
@@ -46,10 +46,10 @@ When asked for a plan, give 12 ideas for the next four weeks, about three a week
 |---|---|---|---|---|---|
 
 The first line is the hook: a question a customer asked, a surprising fact, or a promise of something useful. Pick
-one channel per idea, the one where the owner's customers already are. Then offer to write any of them with the
-social-posts skill.
+one channel per idea: one of the places the brand card says customers look. Then offer to write any of them with
+the social-posts skill.
 
-## Dates ahead (Canada, checked October 2026)
+## Dates ahead (Canada; valid until February 2027, checked October 2026)
 
 - Thanksgiving: Monday, October 12, 2026 — remind the owner to set holiday hours on their Google Business Profile.
 - BDC Small Business Week: October 19–25, 2026.
@@ -79,7 +79,10 @@ Think in stories, not campaigns, and test small before going big.
 ## Rules
 
 - Use only facts from the brand card or the user. Mark anything uncertain with [CHECK].
-- No prices in public ideas unless the user gives them and the brand card allows it.
+- Only assume services, hours and places that are in the brand card. If an idea needs more, mark it
+  [CHECK: do you offer this?].
+- No prices in public ideas unless the brand card says that price may be public in that channel. A price under
+  "What is true" is not permission: leave it out and ask once.
 - Never invent an event, a partnership, a review or a customer.
 - Real customers appear only with their written OK.
 

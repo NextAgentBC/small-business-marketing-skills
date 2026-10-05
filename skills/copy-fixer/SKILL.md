@@ -2,7 +2,7 @@
 name: copy-fixer
 description: "Use when a draft sounds like AI, is too long, too salesy, vague or full of buzzwords, or when the user wants a post, email, page or ad edited, tightened or made to sound like them. Also use for 'sounds like ChatGPT', 'make it sound human', 'too fancy', 'shorter', 'more natural', 'proofread', or 'fix this'. Run its self-check on anything the other skills write before it goes to the owner."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Copy fixer
@@ -22,7 +22,9 @@ samples: their sentence length, their warmth, their words.
 - **The customer's words.** Use the phrases customers use in reviews and messages.
 - **Active and plain.** "We open at 9", not "Our doors will be opened". "Use", not "utilize".
 - **One idea, one call to action.**
-- **Honest.** No invented numbers, reviews or results. If proof is missing, ask for it.
+- **Honest.** No invented numbers, reviews, results or promises. If proof is missing, ask for it.
+- **Prices stay private** unless the brand card says they may be public in that channel. A price under "What is
+  true" is not permission.
 
 ## Never write these (AI tells)
 
@@ -39,7 +41,7 @@ samples: their sentence length, their warmth, their words.
    strings of exclamation marks. Write the way the owner would text a regular customer.
 
 **Swap test:** if a line would work unchanged for a competitor, rewrite it with a real detail. If you don't have
-one, write [NEED: a real detail] and ask.
+one, write [CHECK: need a real detail] and ask.
 
 ## Fix-it lines
 

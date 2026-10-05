@@ -2,7 +2,7 @@
 name: email-casl
 description: "Use when the user wants a marketing email or a short series for a small business — a welcome email, a thank-you after a visit or purchase, a seasonal or news email, a 'we miss you' email, an event invitation — or asks about subject lines, newsletters, or who they are allowed to email in Canada (CASL, consent, unsubscribe). Writes short, one-button emails that follow Canada's anti-spam law."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Email that works, and follows CASL
@@ -28,13 +28,16 @@ Read the brand card (see brand-card). Then ask only what is missing:
 - **Never** email a bought or scraped list, or add business cards to a newsletter without a clear reason that fits
   their work.
 
-If the user's list doesn't meet these, say so plainly and suggest a "would you like to hear from us?" email or a
-sign-up form instead.
+If the user's list doesn't meet these, say so plainly and do not write the email. A "would you like to hear from
+us?" email is itself a marketing message under CASL, so it may only go to people whose implied consent has not run
+out. Otherwise ask in person, by phone, on a paper sign-up sheet, or with a sign-up form on the website.
 
 ## Every email needs
 
-- The business's name, a mailing address, and a phone number, email or website. They must still work 60 days later.
-- An unsubscribe link that works and costs nothing. Honour every unsubscribe within 10 business days.
+- The business's name, a mailing address (a PO box is fine), and a phone number, email or website. They must still
+  work 60 days after sending.
+- A free way to unsubscribe: a link, or, when sending from Gmail or Outlook, a line such as "To stop these emails,
+  reply with the word unsubscribe." Keep it working for 60 days, and honour every request within 10 business days.
 - Penalties under CASL go up to $1 million per violation for an individual and $10 million for a business.
 
 ## How to write it
@@ -53,7 +56,7 @@ sign-up form instead.
 | Email | When | Its one job |
 |---|---|---|
 | Welcome | Right after someone signs up | Say what they will get and how often; one useful thing |
-| Thank you | A day after a visit or purchase | Thank them; ask for an honest Google review (never offer a reward for it) |
+| Thank you | A day after a visit or purchase | Thank them; ask for an honest Google review with the link from the brand card (never offer a reward for it) |
 | Seasonal or news | When something real happens | One piece of news or one offer, with dates |
 | We miss you | After 3–6 months of silence | A friendly check-in and one reason to come back |
 | Event invite | 1–2 weeks before | What, when, where, how to save a spot |
@@ -71,10 +74,11 @@ Preview: …
 
 [Button: one action, for example "Book a time"]
 
-[Footer: business name · mailing address · phone, email or website · Unsubscribe]
+[Footer: business name · mailing address · phone, email or website · unsubscribe link or reply line]
 ```
 
-Mark any fact you are unsure of with [CHECK]. Never invent a discount, a deadline or a testimonial.
+Mark any fact you are unsure of with [CHECK]. Never invent a discount, a deadline, a testimonial or a promise
+(free fixes, guarantees).
 
 ---
 Adapted from the `emails` skill in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small businesses, with Canada's anti-spam law (CASL) added. CASL details checked October 2026 against the Act, its regulations and the CRTC's guidance: https://crtc.gc.ca/eng/com500/faq500.htm

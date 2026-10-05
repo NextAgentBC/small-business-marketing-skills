@@ -1,16 +1,17 @@
 # Small-business marketing skills — all six in one file
 
-Version 1.0.0 · https://github.com/NextAgentBC/small-business-marketing-skills · MIT licence
+Version 1.0.1 · https://github.com/NextAgentBC/small-business-marketing-skills · MIT licence (at the end)
 
-**For the person:** upload this file to a ChatGPT or Claude Project, or to a Gemini Gem, next to your brand card.
-Then ask for what you need, for example "Use the ideas-calendar skill: give me next week's three posts."
+**For the person:** upload this file to a ChatGPT or Claude Project, or to a Gemini Gem. Then ask for what you need,
+for example "Use the ideas-calendar skill in my skills file: give me 12 post ideas for the next four weeks."
 
 **For the AI assistant:**
 - This file holds six marketing skills for a small, local business. When the user asks for a marketing task, pick
   the skill below that fits and follow it. Say which skill you are using.
-- Always read the user's brand card first (a file or text titled "Brand card"). If there is none, offer to make one
-  with the brand-card skill.
-- Reply in the language the user writes in.
+- Always read the user's brand card first. It may be in the Project or Gem instructions, in a file, or pasted in the
+  chat; it is usually titled "Brand card". If there is none, offer to make one with the brand-card skill.
+- Talk to the owner in the language they write in. Write each public post in the language or languages the brand
+  card names.
 - You draft; the owner approves. Never claim that anything was posted or sent.
 
 | Skill | Use it for |
@@ -33,8 +34,8 @@ reads it first, so the owner never has to explain their business twice.
 
 ### Before you start
 
-Look for an existing brand card: a file in this project or chat, or text the user pasted, usually titled "Brand
-card". If there is one, read it, say in two lines what it covers, and ask which part to update. Only ask about
+Look for an existing brand card. It may be in the Project or Gem instructions, in a file, or pasted in the chat;
+it is usually titled "Brand card". If there is one, read it, say in two lines what it covers, and ask which part to update. Only ask about
 that part.
 
 If there is none, offer two ways:
@@ -58,16 +59,21 @@ Keep the owner's own words. A phrase a customer actually said is worth more than
 - Words the owner uses, and words they never use. Start a ban list (see the copy-fixer skill).
 - Two or three short things the owner wrote that sound like them: a post, an email, a reply to a customer. Ask
   them to paste these. Examples teach voice far better than adjectives.
+- A line under "Sounds like" shows the voice, not facts. If it holds a number or a promise, also put it under
+  "What is true", or the other skills will treat it as unconfirmed.
 
 **3. What is true**
 - Services or products, prices or price ranges, hours, the area served, how to book or order.
 - Proof: years in business, qualifications, real reviews (quote only with the reviewer's words), real numbers.
+- How to reach you: mailing address (a PO box is fine), phone, email or website, booking link, and the Google review
+  link (Business Profile → Read reviews → Get more reviews).
 - Use only facts the user gives you. Mark anything uncertain with [CHECK] and ask about it.
 
 **4. Your rules**
 - What must never be claimed (results, guarantees, medical or legal claims, "best in town" without proof).
 - What each channel may show. Some prices or offers belong only in private channels (email list, a WeChat
-  group), for example when a supplier sets a minimum advertised price. Write the rule down.
+  group), for example when a supplier sets a minimum advertised price. Write down which prices may be public, and
+  where: a price under "What is true" is not permission to post it.
 - Which languages the business posts in, and which language leads on which channel.
 - Customers' names, photos and stories appear only with their written OK.
 
@@ -98,18 +104,16 @@ Version 1 · [date]
 - ...
 ```
 
-Keep it to one page. If the owner will paste it into ChatGPT's custom instructions on the free plan, keep it under
-about 1,500 characters; in a Project, Gem or file it can be longer.
+Keep it to one page. Save it where the assistant reads it every time: in ChatGPT, the Project's instructions (in
+the Project settings) or a file in the Project; in Claude, the Project's instructions or knowledge; in Gemini, the
+Gem's instructions. ChatGPT's global custom instructions hold only about 1,500 characters on the free plan.
 
 ### After the card is written
 
 - Read it back and ask: "Is anything here not true, or not how you would say it?"
-- Tell the user to save it where the other skills can read it: the same Project (ChatGPT, Claude), the same Gem
-  (Gemini), or a document they paste in at the start of a chat.
+- Tell the user to save it where the other skills can read it: the same Project (ChatGPT, Claude) or Gem (Gemini)
+  as this file, or a document they paste in at the start of a chat.
 - Suggest the next step: a month of ideas (ideas-calendar) or this week's posts (social-posts).
-
----
-Adapted from the `product-marketing` skill in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small, local businesses.
 
 ---
 
@@ -156,10 +160,10 @@ When asked for a plan, give 12 ideas for the next four weeks, about three a week
 |---|---|---|---|---|---|
 
 The first line is the hook: a question a customer asked, a surprising fact, or a promise of something useful. Pick
-one channel per idea, the one where the owner's customers already are. Then offer to write any of them with the
-social-posts skill.
+one channel per idea: one of the places the brand card says customers look. Then offer to write any of them with
+the social-posts skill.
 
-### Dates ahead (Canada, checked October 2026)
+### Dates ahead (Canada; valid until February 2027, checked October 2026)
 
 - Thanksgiving: Monday, October 12, 2026 — remind the owner to set holiday hours on their Google Business Profile.
 - BDC Small Business Week: October 19–25, 2026.
@@ -189,12 +193,12 @@ Think in stories, not campaigns, and test small before going big.
 ### Rules
 
 - Use only facts from the brand card or the user. Mark anything uncertain with [CHECK].
-- No prices in public ideas unless the user gives them and the brand card allows it.
+- Only assume services, hours and places that are in the brand card. If an idea needs more, mark it
+  [CHECK: do you offer this?].
+- No prices in public ideas unless the brand card says that price may be public in that channel. A price under
+  "What is true" is not permission: leave it out and ask once.
 - Never invent an event, a partnership, a review or a customer.
 - Real customers appear only with their written OK.
-
----
-Adapted from the `marketing-ideas` and `content-strategy` skills in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small, local businesses in Canada.
 
 ---
 
@@ -218,9 +222,10 @@ Read the brand card (see brand-card). Then make sure you know three things, and 
 1. **Hook** — the first line decides whether anyone reads on. Lead with the customer's question, a real detail or
    a surprise. No greetings, no "We're excited to announce".
 2. **One useful thing** — one tip, one story, one piece of news. Not three.
-3. **A real detail** — a number, a name (with OK), a time, a place. If you don't have one, ask: "[NEED: a real
-   detail]". Never invent it.
-4. **One call to action** — one, and say exactly what to do: "Message us your pick by Wednesday."
+3. **A real detail** — a number, a name (with OK), a time, a place. If you don't have one, write
+   [CHECK: need a real detail] and ask. Never invent it.
+4. **One call to action** — one, and say exactly what to do: "Message us your pick by Wednesday." One way to act:
+   a booking link or a phone number, not both.
 
 ### Hooks that work
 
@@ -234,14 +239,16 @@ Read the brand card (see brand-card). Then make sure you know three things, and 
 
 ### Platform cheat sheet (checked October 2026; platforms change these often)
 
+Sizes and "first N characters" are common estimates, not official limits.
+
 | Platform | Picture | Words | What works |
 |---|---|---|---|
 | Instagram feed | Portrait, 1080 wide: 4:5 or 3:4 (the grid shows 3:4) | About the first 125 characters show; up to 5 hashtags | Carousels up to 20 slides; slide 1 is the hook |
 | Reels / Stories | 9:16, 1080 × 1920; words in the middle | Captions on screen; the first 3 seconds decide | One idea, 15–30 seconds |
 | Facebook | 4:5 or square; real people | Only the first few lines show | Local and warm: groups, events, "Message us" |
-| Google Business Profile | 4:3, for example 1200 × 900 | Up to 1,500 characters; no phone number in the text (use the Call button) | Offers, updates, holiday hours; people ready to buy |
+| Google Business Profile | 4:3, for example 1200 × 900 | Short is better (limit about 1,500 characters); no phone number in the text (use the Call now button) | Offers, updates, holiday hours; people ready to buy |
 | LinkedIn | Square or 4:5; a PDF posts as a swipeable carousel | About the first 140 characters show; limit 3,000 | The lesson behind it, in plain words |
-| RedNote (Xiaohongshu) | 3:4 (1080 × 1440), up to 18 images | Title up to 20 characters, using words people search | Useful notes; Chinese-speaking customers check here before booking |
+| RedNote (Xiaohongshu) | 3:4 (1080 × 1440), up to 18 images | Title up to 20 characters, using words people search; body up to 1,000 | Useful notes; Chinese-speaking customers check here before booking |
 | WeChat Moments | Up to 9 photos | Short and personal | Regulars and word of mouth |
 
 ### Formats
@@ -252,8 +259,8 @@ Read the brand card (see brand-card). Then make sure you know three things, and 
 the hook, one idea per slide, last slide the action. Hashtags: up to five, specific and local, at the end: for
 example, #KelownaEats rather than #food.
 
-**Google Business Profile post:** plain words, what is new or on offer, the dates, and a button (Call, Book, Learn
-more). No phone number in the text.
+**Google Business Profile post:** plain words, what is new or on offer, the dates, and a button (Call now, Book,
+Learn more). Only the first 16–20 words show, so put the hours or the news first. No phone number in the text.
 
 **30-second video script:** a hook (0–3 s, said and shown as text), three shots of 5–8 seconds (the problem, the
 owner at work, the result), one call to action, one line of on-screen text per shot. See pictures-video.
@@ -270,21 +277,23 @@ different room: change the length, the first line and the call to action for eac
 ### Two languages
 
 If the business serves customers in two languages, adapt, don't translate: write for each language's readers, with
-the reason to care that they would care about. Keep every name, date, price and phone number identical, and list
-them at the end so the owner can check them line by line.
+the reason to care that they would care about. If the brand card names two languages without saying which goes
+where: English first, then Chinese, for Facebook, Instagram and Google; Chinese only for RedNote and WeChat. Keep
+every name, date and hour identical, and any price or phone number the channel allows, and list them at the end so
+the owner can check them line by line.
 
 ### Rules
 
 - Facts only from the brand card or the user. Mark anything uncertain with [CHECK].
-- No prices in public posts unless the user gives them and the brand card allows them in that channel.
+- No prices in public posts unless the brand card says that price may be public in that channel. A price under
+  "What is true" is not permission: leave it out and ask once, "May I show this price in public?"
+- At most 5 hashtags anywhere; none in Google Business Profile posts.
 - No made-up reviews, testimonials, quotes or "customers". Staff who post reviews must say they work there.
 - Real customers' names, photos and stories only with their written OK.
 - Say when an image is AI-made. Never let AI invent a logo, a QR code or a price.
 - Before delivering, run the copy-fixer self-check: no stock phrases, no exclamation marks, one call to action.
-- Nothing is posted without the owner reading it. Offer to schedule only after they approve.
-
----
-Adapted from the `social` skill in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small, local businesses, with Google Business Profile, RedNote and WeChat added.
+- Nothing is posted without the owner reading it. After they approve, tell them how to schedule it themselves
+  (Meta Business Suite: Create post → Scheduling options; Google: Add post → Schedule this post).
 
 ---
 
@@ -307,7 +316,9 @@ samples: their sentence length, their warmth, their words.
 - **The customer's words.** Use the phrases customers use in reviews and messages.
 - **Active and plain.** "We open at 9", not "Our doors will be opened". "Use", not "utilize".
 - **One idea, one call to action.**
-- **Honest.** No invented numbers, reviews or results. If proof is missing, ask for it.
+- **Honest.** No invented numbers, reviews, results or promises. If proof is missing, ask for it.
+- **Prices stay private** unless the brand card says they may be public in that channel. A price under "What is
+  true" is not permission.
 
 ### Never write these (AI tells)
 
@@ -324,7 +335,7 @@ samples: their sentence length, their warmth, their words.
    strings of exclamation marks. Write the way the owner would text a regular customer.
 
 **Swap test:** if a line would work unchanged for a competitor, rewrite it with a real detail. If you don't have
-one, write [NEED: a real detail] and ask.
+one, write [CHECK: need a real detail] and ask.
 
 ### Fix-it lines
 
@@ -361,9 +372,6 @@ The good part — 40 pies, gone by Thursday — came from the owner. The fixer a
 Deliver the fixed version first, then two or three lines on what changed, then any questions about missing facts.
 
 ---
-Adapted from the `copywriting` and `copy-editing` skills and the AI-tells reference in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small businesses, with a Chinese ban list added.
-
----
 
 ## Skill: email-casl
 
@@ -390,13 +398,16 @@ Read the brand card (see brand-card). Then ask only what is missing:
 - **Never** email a bought or scraped list, or add business cards to a newsletter without a clear reason that fits
   their work.
 
-If the user's list doesn't meet these, say so plainly and suggest a "would you like to hear from us?" email or a
-sign-up form instead.
+If the user's list doesn't meet these, say so plainly and do not write the email. A "would you like to hear from
+us?" email is itself a marketing message under CASL, so it may only go to people whose implied consent has not run
+out. Otherwise ask in person, by phone, on a paper sign-up sheet, or with a sign-up form on the website.
 
 ### Every email needs
 
-- The business's name, a mailing address, and a phone number, email or website. They must still work 60 days later.
-- An unsubscribe link that works and costs nothing. Honour every unsubscribe within 10 business days.
+- The business's name, a mailing address (a PO box is fine), and a phone number, email or website. They must still
+  work 60 days after sending.
+- A free way to unsubscribe: a link, or, when sending from Gmail or Outlook, a line such as "To stop these emails,
+  reply with the word unsubscribe." Keep it working for 60 days, and honour every request within 10 business days.
 - Penalties under CASL go up to $1 million per violation for an individual and $10 million for a business.
 
 ### How to write it
@@ -415,7 +426,7 @@ sign-up form instead.
 | Email | When | Its one job |
 |---|---|---|
 | Welcome | Right after someone signs up | Say what they will get and how often; one useful thing |
-| Thank you | A day after a visit or purchase | Thank them; ask for an honest Google review (never offer a reward for it) |
+| Thank you | A day after a visit or purchase | Thank them; ask for an honest Google review with the link from the brand card (never offer a reward for it) |
 | Seasonal or news | When something real happens | One piece of news or one offer, with dates |
 | We miss you | After 3–6 months of silence | A friendly check-in and one reason to come back |
 | Event invite | 1–2 weeks before | What, when, where, how to save a spot |
@@ -433,13 +444,11 @@ Preview: …
 
 [Button: one action, for example "Book a time"]
 
-[Footer: business name · mailing address · phone, email or website · Unsubscribe]
+[Footer: business name · mailing address · phone, email or website · unsubscribe link or reply line]
 ```
 
-Mark any fact you are unsure of with [CHECK]. Never invent a discount, a deadline or a testimonial.
-
----
-Adapted from the `emails` skill in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small businesses, with Canada's anti-spam law (CASL) added. CASL details checked October 2026 against the Act, its regulations and the CRTC's guidance: https://crtc.gc.ca/eng/com500/faq500.htm
+Mark any fact you are unsure of with [CHECK]. Never invent a discount, a deadline, a testimonial or a promise
+(free fixes, guarantees).
 
 ---
 
@@ -478,7 +487,7 @@ Leave an empty square, bottom right, for my logo. No prices, no QR codes, no ext
   logo, a QR code, a price, a certificate or a real person's face presented as a real customer.
 - **Say so.** If a picture is AI-made, say so in the caption or the corner.
 - **Free tools (October 2026):** Canva Free has templates and up to 20 AI uses a month (Magic Resize and the
-  background remover need a paid plan); free ChatGPT and Gemini make a limited number of images a day.
+  background remover need a paid plan); free ChatGPT and Gemini make a limited number of images (the limits change).
 
 ### A 30-second video, filmed on a phone
 
@@ -511,4 +520,32 @@ with its first line, and up to five hashtags.
 - No AI-generated "customers", reviews or results.
 
 ---
-Adapted from the `image` and `video` skills and the short-form video reference in [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © Corey Haines), rewritten for small businesses filming on a phone. Platform details checked October 2026.
+
+## Credits and licence
+
+Adapted from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (MIT, © 2025 Corey
+Haines): the product-marketing, marketing-ideas, content-strategy, social, copywriting, copy-editing, emails, image
+and video skills. Not affiliated with or endorsed by Corey Haines.
+
+MIT License
+
+Copyright (c) 2025 Corey Haines
+Copyright (c) 2026 NextAgent (this small-business edition)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

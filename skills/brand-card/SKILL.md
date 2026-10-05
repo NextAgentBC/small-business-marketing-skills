@@ -2,7 +2,7 @@
 name: brand-card
 description: "Use first, before any other marketing task, or when the user wants to create or update their brand card — the one page that says who they serve, how they sound, what is true and what their rules are. Also use when the user says 'brand card', 'brand voice', 'who is my customer', 'describe my business', or keeps repeating the same background in every chat. Every other skill in this pack reads the brand card before it writes anything."
 metadata:
-  version: 1.0.0
+  version: 1.0.1
 ---
 
 # Brand card
@@ -12,8 +12,8 @@ reads it first, so the owner never has to explain their business twice.
 
 ## Before you start
 
-Look for an existing brand card: a file in this project or chat, or text the user pasted, usually titled "Brand
-card". If there is one, read it, say in two lines what it covers, and ask which part to update. Only ask about
+Look for an existing brand card. It may be in the Project or Gem instructions, in a file, or pasted in the chat;
+it is usually titled "Brand card". If there is one, read it, say in two lines what it covers, and ask which part to update. Only ask about
 that part.
 
 If there is none, offer two ways:
@@ -37,16 +37,21 @@ Keep the owner's own words. A phrase a customer actually said is worth more than
 - Words the owner uses, and words they never use. Start a ban list (see the copy-fixer skill).
 - Two or three short things the owner wrote that sound like them: a post, an email, a reply to a customer. Ask
   them to paste these. Examples teach voice far better than adjectives.
+- A line under "Sounds like" shows the voice, not facts. If it holds a number or a promise, also put it under
+  "What is true", or the other skills will treat it as unconfirmed.
 
 **3. What is true**
 - Services or products, prices or price ranges, hours, the area served, how to book or order.
 - Proof: years in business, qualifications, real reviews (quote only with the reviewer's words), real numbers.
+- How to reach you: mailing address (a PO box is fine), phone, email or website, booking link, and the Google review
+  link (Business Profile → Read reviews → Get more reviews).
 - Use only facts the user gives you. Mark anything uncertain with [CHECK] and ask about it.
 
 **4. Your rules**
 - What must never be claimed (results, guarantees, medical or legal claims, "best in town" without proof).
 - What each channel may show. Some prices or offers belong only in private channels (email list, a WeChat
-  group), for example when a supplier sets a minimum advertised price. Write the rule down.
+  group), for example when a supplier sets a minimum advertised price. Write down which prices may be public, and
+  where: a price under "What is true" is not permission to post it.
 - Which languages the business posts in, and which language leads on which channel.
 - Customers' names, photos and stories appear only with their written OK.
 
@@ -77,14 +82,15 @@ Version 1 · [date]
 - ...
 ```
 
-Keep it to one page. If the owner will paste it into ChatGPT's custom instructions on the free plan, keep it under
-about 1,500 characters; in a Project, Gem or file it can be longer.
+Keep it to one page. Save it where the assistant reads it every time: in ChatGPT, the Project's instructions (in
+the Project settings) or a file in the Project; in Claude, the Project's instructions or knowledge; in Gemini, the
+Gem's instructions. ChatGPT's global custom instructions hold only about 1,500 characters on the free plan.
 
 ## After the card is written
 
 - Read it back and ask: "Is anything here not true, or not how you would say it?"
-- Tell the user to save it where the other skills can read it: the same Project (ChatGPT, Claude), the same Gem
-  (Gemini), or a document they paste in at the start of a chat.
+- Tell the user to save it where the other skills can read it: the same Project (ChatGPT, Claude) or Gem (Gemini)
+  as this file, or a document they paste in at the start of a chat.
 - Suggest the next step: a month of ideas (ideas-calendar) or this week's posts (social-posts).
 
 ---

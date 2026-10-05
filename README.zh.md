@@ -19,16 +19,17 @@
 
 ## 五分钟装好，不用终端
 
-六个技能都在一个文件里：[`small-business-marketing-skills.md`](small-business-marketing-skills.md)。
+六个技能都在一个纯文本文件里，它不是程序。
 
-1. **下载文件。** [直接下载](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.md)，或者点开上面的文件，再点下载图标（Download raw file）。
-2. **把它加进你的 AI 助手**，和品牌卡放在同一个地方：
-   - **ChatGPT：** 打开你的项目，在项目的文件里添加这个文件。免费版每个项目最多 5 个文件。
-   - **Claude：** 打开你的项目，上传到项目知识（Project knowledge）里。
-   - **Gemini：** 编辑你的 Gem，在知识（Knowledge）里上传。（Google 从 2026 年 11 月起要把 Gem 改成"技能"，文件请自己留一份。）
-3. **试一试**，在这个项目或 Gem 里开一个新对话：
-   - "用 brand-card 技能采访我，写我的品牌卡。"
-   - "用 ideas-calendar 技能，给我接下来四周的 12 个发帖点子。"
+1. **下载：** [small-business-marketing-skills.txt](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.txt)，ChatGPT、Claude、Gemini 都能用。（同一个文件的 Markdown 版：[.md](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.md)。）
+2. **建一个项目或 Gem，把文件加进去。** 只上传这一个文件：免费版 ChatGPT 每天只能上传 3 个文件，每个项目最多 5 个。
+   - **ChatGPT：** 侧边栏点"新项目"（New project），再把文件添加到项目的文件里。
+   - **Claude：** 点 Projects，再上传到项目知识（Project knowledge）里。
+   - **Gemini：** 点 Gems，新建或编辑一个 Gem，在知识（Knowledge）里添加文件。（Google 从 2026 年 11 月起要把 Gem 改成"技能"，文件请自己留一份。）
+3. **检查一下：** 在这个项目或 Gem 里开新对话，问"列出我技能文件里的六个技能。"应该能看到六个名字。
+4. **做品牌卡：** "用我技能文件里的 brand-card 技能采访我，写我的品牌卡。"写好后，把品牌卡存进项目或 Gem 的说明里（ChatGPT 在项目设置里）。
+5. **开始用：**
+   - "用我技能文件里的 ideas-calendar 技能，给我接下来四周的 12 个发帖点子。"
    - "用 social-posts 技能，把这个想法写成一条 Facebook 帖子、一组 Instagram 轮播和一条 Google 动态。"
    - "用 copy-fixer 技能改这份草稿：【粘贴进来】"
 
@@ -39,16 +40,16 @@
 - **AI 起草，你来批准。** 你没读过的东西不会发出去。
 - **事实只来自你。** AI 拿不准的地方标【CHECK】，缺的证据会问你，不会编。
 - **不编好评、引言或客户。** 真实客人的名字和照片，要有书面同意。
-- **加拿大的规矩：** 邮件遵守 CASL；员工给自己公司写评价要说明身份；供应商不允许公开标价的，公开渠道就不放价格。
+- **加拿大的规矩：** 邮件遵守 CASL；员工给自己公司写评价要说明身份；品牌卡没写明可以公开的价格，公开帖子里就不放。
 
 ## 和原版的区别
 
-改编自 Corey Haines 的 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)（MIT 协议），GitHub 上星数最多的 AI 营销项目之一（约 5.3 万星）。原版约 50 个技能，面向懂技术的营销人和软件公司，要用终端安装。这个版本：
+改编自 Corey Haines 的 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)（MIT 协议）。原版约 50 个技能，面向懂技术的营销人和软件公司，要用终端安装。这个版本：
 
 - 只留本地小生意每周都用得上的六个，用大白话重写，例子换成本地小店；
 - 用"品牌卡"代替原版的产品营销文档；
 - 加上 Google 商家资料、小红书和微信，以及 2026 年 10 月核实过的平台速查表；
-- 加上加拿大反垃圾邮件法（CASL）、竞争局关于评价的规定和加拿大的节日；
+- 加上加拿大反垃圾邮件法（CASL）、竞争局关于评价的指引和加拿大的节日；
 - AI 腔检查加了中文禁用词表，并要求 AI 用提问者的语言回答；
 - 六个技能合成一个文件，免费聊天工具不用终端也能用。
 
@@ -56,4 +57,4 @@
 
 ## 许可
 
-MIT。原版技能 © 2025 Corey Haines；本版本 © 2026 NextAgent。见 [LICENSE](LICENSE)。
+MIT。原版技能 © 2025 Corey Haines；本版本 © 2026 NextAgent。见 [LICENSE](LICENSE)。与 Corey Haines 无隶属关系，也未经其背书。
