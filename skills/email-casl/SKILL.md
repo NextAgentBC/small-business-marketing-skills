@@ -2,7 +2,7 @@
 name: email-casl
 description: "Use when the user wants a marketing email or a short series for a small business — a welcome email, a thank-you after a visit or purchase, a seasonal or news email, a 'we miss you' email, an event invitation — or asks about subject lines, newsletters, or who they are allowed to email in Canada (CASL, consent, unsubscribe). Writes short, one-button emails that follow Canada's anti-spam law."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Email that works, and follows CASL

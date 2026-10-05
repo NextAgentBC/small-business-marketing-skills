@@ -2,7 +2,7 @@
 name: social-posts
 description: "Use when the user wants social media content for a small business: a Facebook post, an Instagram caption or carousel, a Reel or short-video script, a Google Business Profile post, a LinkedIn post, a RedNote (Xiaohongshu) note or a WeChat Moments post, or wants to turn one idea into posts for several platforms. Also use for 'write a post', 'caption', 'carousel', 'hashtags', 'repurpose', 'adapt this for Instagram', or 'write it in Chinese too'. For ideas on what to post, see ideas-calendar; to fix a draft that sounds like AI, see copy-fixer."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Social posts

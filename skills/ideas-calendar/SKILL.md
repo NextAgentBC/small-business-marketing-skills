@@ -2,7 +2,7 @@
 name: ideas-calendar
 description: "Use when the user does not know what to post, wants post ideas, a content calendar, a month of ideas, seasonal or holiday ideas, or low-cost local marketing ideas. Also use for 'what should I post', 'content plan', 'Thanksgiving / Halloween / Black Friday / Lunar New Year post', 'slow week', or 'marketing ideas for my shop'. Produces ideas with a first line and the best channel for each; for writing the posts themselves, hand over to social-posts."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Ideas calendar

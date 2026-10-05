@@ -2,7 +2,7 @@
 name: copy-fixer
 description: "Use when a draft sounds like AI, is too long, too salesy, vague or full of buzzwords, or when the user wants a post, email, page or ad edited, tightened or made to sound like them. Also use for 'sounds like ChatGPT', 'make it sound human', 'too fancy', 'shorter', 'more natural', 'proofread', or 'fix this'. Run its self-check on anything the other skills write before it goes to the owner."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Copy fixer

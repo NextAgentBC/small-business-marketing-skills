@@ -1,6 +1,6 @@
 # 小生意营销技能包
 
-给本地小生意用的六个 AI 营销技能：品牌卡、一个月选题、各平台帖子、改掉 AI 腔、符合加拿大反垃圾邮件法的短邮件、海报和 30 秒手机视频。**免费版**的 ChatGPT、Claude、Gemini 都能用，不需要终端。
+给本地小生意用的六个 AI 营销技能：品牌卡、一个月选题、各平台帖子、改掉 AI 腔、符合加拿大反垃圾邮件法的短邮件、海报和 30 秒手机视频。ChatGPT、Claude、Gemini 都能用，不需要终端。做生意建议用一个付费版：ChatGPT Plus、Claude Pro 或 Google AI Pro（每月约 25–30 加元）；免费版在上传、出图和用量上都有限制。
 
 [English](README.md)
 
@@ -22,7 +22,7 @@
 六个技能都在一个纯文本文件里，它不是程序。
 
 1. **下载：** [small-business-marketing-skills.txt](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.txt)，ChatGPT、Claude、Gemini 都能用。（同一个文件的 Markdown 版：[.md](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.md)。）
-2. **建一个项目或 Gem，把文件加进去。** 只上传这一个文件：免费版 ChatGPT 每天只能上传 3 个文件，每个项目最多 5 个。
+2. **建一个项目或 Gem，把文件加进去。** 只上传这一个文件。
    - **ChatGPT：** 侧边栏点"新项目"（New project），再把文件添加到项目的文件里。
    - **Claude：** 点 Projects，再上传到项目知识（Project knowledge）里。
    - **Gemini：** 点 Gems，新建或编辑一个 Gem，在知识（Knowledge）里添加文件。（Google 从 2026 年 11 月起要把 Gem 改成"技能"，文件请自己留一份。）

@@ -2,7 +2,9 @@
 
 Six AI marketing skills for small, local businesses: a brand card, a month of ideas, social posts for every
 platform, a fix for drafts that sound like AI, short emails within Canada's anti-spam law, and pictures and
-30-second videos. They work in the **free** plans of ChatGPT, Claude and Gemini, and no terminal is needed.
+30-second videos. They work in ChatGPT, Claude and Gemini, with no terminal. For a business we recommend one paid
+plan: ChatGPT Plus, Claude Pro or Google AI Pro (about CA$25–30 a month); the free plans limit uploads, images and
+usage.
 
 [中文说明](README.zh.md)
 
@@ -26,8 +28,7 @@ All six skills are in one plain text file. It is not a program.
 
 1. **Download it:** [small-business-marketing-skills.txt](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.txt)
    works in ChatGPT, Claude and Gemini. (The same file as Markdown: [.md](https://github.com/NextAgentBC/small-business-marketing-skills/releases/latest/download/small-business-marketing-skills.md).)
-2. **Make a Project or a Gem, and add the file to it.** Upload only this file: free ChatGPT allows 3 file uploads a
-   day and 5 files per Project.
+2. **Make a Project or a Gem, and add the file to it.** Upload only this file.
    - **ChatGPT:** New project (in the sidebar), then add the file to the Project's files.
    - **Claude:** Projects, then upload the file to the project knowledge.
    - **Gemini:** Gems, then make or edit a Gem and add the file under Knowledge. (Google is moving Gems to "skills"

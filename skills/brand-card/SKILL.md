@@ -2,7 +2,7 @@
 name: brand-card
 description: "Use first, before any other marketing task, or when the user wants to create or update their brand card — the one page that says who they serve, how they sound, what is true and what their rules are. Also use when the user says 'brand card', 'brand voice', 'who is my customer', 'describe my business', or keeps repeating the same background in every chat. Every other skill in this pack reads the brand card before it writes anything."
 metadata:
-  version: 1.0.2
+  version: 1.0.3
 ---
 
 # Brand card
@@ -84,7 +84,8 @@ Version 1 · [date]
 
 Keep it to one page. Save it where the assistant reads it every time: in ChatGPT, the Project's instructions (in
 the Project settings) or a file in the Project; in Claude, the Project's instructions or knowledge; in Gemini, the
-Gem's instructions. ChatGPT's global custom instructions hold only about 1,500 characters on the free plan.
+Gem's instructions. ChatGPT's global custom instructions hold up to 5,000 characters on paid plans (1,500 on the
+free plan).
 
 ## After the card is written
 

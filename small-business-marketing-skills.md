@@ -1,6 +1,6 @@
 # Small-business marketing skills — all six in one file
 
-Version 1.0.2 · https://github.com/NextAgentBC/small-business-marketing-skills · MIT licence (at the end)
+Version 1.0.3 · https://github.com/NextAgentBC/small-business-marketing-skills · MIT licence (at the end)
 
 **For the person:** upload this file to a ChatGPT or Claude Project, or to a Gemini Gem. Then ask for what you need,
 for example "Use the ideas-calendar skill in my skills file: give me 12 post ideas for the next four weeks."
@@ -106,7 +106,8 @@ Version 1 · [date]
 
 Keep it to one page. Save it where the assistant reads it every time: in ChatGPT, the Project's instructions (in
 the Project settings) or a file in the Project; in Claude, the Project's instructions or knowledge; in Gemini, the
-Gem's instructions. ChatGPT's global custom instructions hold only about 1,500 characters on the free plan.
+Gem's instructions. ChatGPT's global custom instructions hold up to 5,000 characters on paid plans (1,500 on the
+free plan).
 
 ### After the card is written
 
@@ -489,8 +490,8 @@ Leave an empty square, bottom right, for my logo. No prices, no QR codes, no ext
   RedNote pictures, which limits accounts that send people elsewhere). Never let AI draw a
   logo, a QR code, a price, a certificate or a real person's face presented as a real customer.
 - **Say so.** If a picture is AI-made, say so in the caption or the corner.
-- **Free tools (October 2026):** Canva Free has templates and up to 20 AI uses a month (Magic Resize and the
-  background remover need a paid plan); free ChatGPT and Gemini make a limited number of images (the limits change).
+- **Tools (October 2026):** ChatGPT Plus and Google AI Pro make far more images than the free plans. Canva Pro adds
+  Magic Resize and the background remover; Canva's free plan has templates and up to 20 AI uses a month.
 
 ### A 30-second video, filmed on a phone
 
