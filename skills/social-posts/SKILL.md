@@ -2,7 +2,7 @@
 name: social-posts
 description: "Use when the user wants social media content for a small business: a Facebook post, an Instagram caption or carousel, a Reel or short-video script, a Google Business Profile post, a LinkedIn post, a RedNote (Xiaohongshu) note or a WeChat Moments post, or wants to turn one idea into posts for several platforms. Also use for 'write a post', 'caption', 'carousel', 'hashtags', 'repurpose', 'adapt this for Instagram', or 'write it in Chinese too'. For ideas on what to post, see ideas-calendar; to fix a draft that sounds like AI, see copy-fixer."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Social posts
@@ -49,7 +49,7 @@ Sizes and "first N characters" are common estimates, not official limits.
 | Facebook | 4:5 or square; real people | Only the first few lines show | Local and warm: groups, events, "Message us" |
 | Google Business Profile | 4:3, for example 1200 × 900 | Short is better (limit about 1,500 characters); no phone number in the text (use the Call now button) | Offers, updates, holiday hours; people ready to buy |
 | LinkedIn | Square or 4:5; a PDF posts as a swipeable carousel | About the first 140 characters show; limit 3,000 | The lesson behind it, in plain words |
-| RedNote (Xiaohongshu) | 3:4 (1080 × 1440), up to 18 images | Title up to 20 characters, using words people search; body up to 1,000 | Useful notes; Chinese-speaking customers check here before booking |
+| RedNote (Xiaohongshu) | 3:4 (1080 × 1440), up to 18 images | Title up to 20 characters, using words people search; body up to 1,000 | Useful notes; Chinese-speaking customers check here before booking. No phone, WeChat ID, link or QR code: RedNote limits accounts that send people elsewhere |
 | WeChat Moments | Up to 9 photos | Short and personal | Regulars and word of mouth |
 
 ## Formats
@@ -67,7 +67,9 @@ Learn more). Only the first 16–20 words show, so put the hours or the news fir
 owner at work, the result), one call to action, one line of on-screen text per shot. See pictures-video.
 
 **RedNote note:** a title of 20 characters or fewer built from words people search; a useful body in short lines;
-3:4 pictures.
+3:4 pictures. No phone number, WeChat ID, email, link or QR code in the text or pictures: RedNote limits accounts
+that move people off the platform. Add the shop as the note's location instead, and invite people to message on
+RedNote.
 
 ## One idea, every platform
 

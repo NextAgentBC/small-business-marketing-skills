@@ -2,7 +2,7 @@
 name: brand-card
 description: "Use first, before any other marketing task, or when the user wants to create or update their brand card — the one page that says who they serve, how they sound, what is true and what their rules are. Also use when the user says 'brand card', 'brand voice', 'who is my customer', 'describe my business', or keeps repeating the same background in every chat. Every other skill in this pack reads the brand card before it writes anything."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Brand card

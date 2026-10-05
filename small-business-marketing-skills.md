@@ -1,6 +1,6 @@
 # Small-business marketing skills — all six in one file
 
-Version 1.0.1 · https://github.com/NextAgentBC/small-business-marketing-skills · MIT licence (at the end)
+Version 1.0.2 · https://github.com/NextAgentBC/small-business-marketing-skills · MIT licence (at the end)
 
 **For the person:** upload this file to a ChatGPT or Claude Project, or to a Gemini Gem. Then ask for what you need,
 for example "Use the ideas-calendar skill in my skills file: give me 12 post ideas for the next four weeks."
@@ -248,7 +248,7 @@ Sizes and "first N characters" are common estimates, not official limits.
 | Facebook | 4:5 or square; real people | Only the first few lines show | Local and warm: groups, events, "Message us" |
 | Google Business Profile | 4:3, for example 1200 × 900 | Short is better (limit about 1,500 characters); no phone number in the text (use the Call now button) | Offers, updates, holiday hours; people ready to buy |
 | LinkedIn | Square or 4:5; a PDF posts as a swipeable carousel | About the first 140 characters show; limit 3,000 | The lesson behind it, in plain words |
-| RedNote (Xiaohongshu) | 3:4 (1080 × 1440), up to 18 images | Title up to 20 characters, using words people search; body up to 1,000 | Useful notes; Chinese-speaking customers check here before booking |
+| RedNote (Xiaohongshu) | 3:4 (1080 × 1440), up to 18 images | Title up to 20 characters, using words people search; body up to 1,000 | Useful notes; Chinese-speaking customers check here before booking. No phone, WeChat ID, link or QR code: RedNote limits accounts that send people elsewhere |
 | WeChat Moments | Up to 9 photos | Short and personal | Regulars and word of mouth |
 
 ### Formats
@@ -266,7 +266,9 @@ Learn more). Only the first 16–20 words show, so put the hours or the news fir
 owner at work, the result), one call to action, one line of on-screen text per shot. See pictures-video.
 
 **RedNote note:** a title of 20 characters or fewer built from words people search; a useful body in short lines;
-3:4 pictures.
+3:4 pictures. No phone number, WeChat ID, email, link or QR code in the text or pictures: RedNote limits accounts
+that move people off the platform. Add the shop as the note's location instead, and invite people to message on
+RedNote.
 
 ### One idea, every platform
 
@@ -483,7 +485,8 @@ Leave an empty square, bottom right, for my logo. No prices, no QR codes, no ext
 - **Few words, in quotes, and "no other text".** AI still misspells long text, and Chinese characters more often.
   Check every letter.
 - **Colours as codes.** In Canva, the colour panel shows the codes of the colours in the owner's logo.
-- **Finish it by hand.** Put in the real logo, photo and QR code with Canva or a similar editor. Never let AI draw a
+- **Finish it by hand.** Put in the real logo, photo and QR code with Canva or a similar editor (no QR code on
+  RedNote pictures, which limits accounts that send people elsewhere). Never let AI draw a
   logo, a QR code, a price, a certificate or a real person's face presented as a real customer.
 - **Say so.** If a picture is AI-made, say so in the caption or the corner.
 - **Free tools (October 2026):** Canva Free has templates and up to 20 AI uses a month (Magic Resize and the

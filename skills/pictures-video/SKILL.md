@@ -2,7 +2,7 @@
 name: pictures-video
 description: "Use when the user wants a picture, poster, flyer or social graphic made with AI, a prompt for ChatGPT, Gemini or Canva image tools, or a short video for Reels, TikTok, Stories, YouTube Shorts, RedNote or WeChat Channels — a 30-second script, a shot list, hooks, captions or music advice. Also use for 'make a poster', 'image prompt', 'what size', 'film a Reel', 'video idea' or 'what music can I use'."
 metadata:
-  version: 1.0.1
+  version: 1.0.2
 ---
 
 # Pictures and short video
@@ -34,7 +34,8 @@ Leave an empty square, bottom right, for my logo. No prices, no QR codes, no ext
 - **Few words, in quotes, and "no other text".** AI still misspells long text, and Chinese characters more often.
   Check every letter.
 - **Colours as codes.** In Canva, the colour panel shows the codes of the colours in the owner's logo.
-- **Finish it by hand.** Put in the real logo, photo and QR code with Canva or a similar editor. Never let AI draw a
+- **Finish it by hand.** Put in the real logo, photo and QR code with Canva or a similar editor (no QR code on
+  RedNote pictures, which limits accounts that send people elsewhere). Never let AI draw a
   logo, a QR code, a price, a certificate or a real person's face presented as a real customer.
 - **Say so.** If a picture is AI-made, say so in the caption or the corner.
 - **Free tools (October 2026):** Canva Free has templates and up to 20 AI uses a month (Magic Resize and the
